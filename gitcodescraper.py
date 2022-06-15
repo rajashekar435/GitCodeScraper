@@ -4,6 +4,8 @@ import shutil
 import requests
 from github import Github
 
+
+#Always have a minimum of 3 arguments to search
 if len(sys.argv) >= 3:
     #Keyword to search
     keyword = sys.argv[1]
